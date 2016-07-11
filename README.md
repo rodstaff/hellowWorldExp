@@ -1,2 +1,3 @@
-# helloWorld
-This a short tutorial taken from http://www.encodedna.com/angularjs/tutorial/my-first-angularjs-application.htm shows AngularJS software architecture called the MVC or Model-View-Control all in a single page!
+# helloWorldExp
+AngularJS + Express Framework
+I separated the one-page app 'helloWorld' into its MVC components, i.e. index.html, script.js files and placed them in an express framework.  Now, instead of opening the index.html using the browser, you can now start the app using 'node app.js' and access it using the port number assigned.
