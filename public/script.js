@@ -1,13 +1,13 @@
-    var HWApp = angular.module('HelloWorldApp', []);
+    var hwApp = angular.module('HelloWorldApp', []);
 	
-    HWApp.controller(
+    hwApp.controller(
       'HelloWorldController',
       ['$scope', function ($greet) {
         $greet.who = 'WeAreTheWorld!';
       }]
     );
 
-    HWApp.controller(
+    hwApp.controller(
       'whoAmI',
       ['$scope', function ($greet1) {
         $greet1.firstname = 'John';
