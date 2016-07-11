@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+
 </head>
 <body>
 <div ng-app="HelloWorldApp" ng-controller="HelloWorldController">
@@ -10,13 +10,15 @@
     <h1>Hello {{who}} </h1>
 
     <!--NESTED VIEW AND CONTROLLER-->
+    <link rel="stylesheet" href="styles.css">
     <div ng-controller="whoAmI">
-        <span style="font:15px Verdana;">I am {{firstname}} {{lastname}}!</span>
+<!--         <span style="font:30px Verdana;">I am {{firstname}}  -->   <span>I am {{firstname}} {{lastname}}!</span>
     </div>
 
 </div>
-
-    <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+    <script src='script.js'></script>
+    <!-- <script>
     var HWApp = angular.module('HelloWorldApp', []);
 	
     HWApp.controller(
@@ -34,7 +36,7 @@
       }]
     );
 
-    </script>
+    </script> -->
 
   </body>
 </html>

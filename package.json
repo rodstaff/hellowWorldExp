@@ -1,0 +1,19 @@
+{
+  "name": "hello_world_exp",
+  "version": "1.0.0",
+  "description": "\"helloWorld\" project in express framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "bugs": ""
+}
